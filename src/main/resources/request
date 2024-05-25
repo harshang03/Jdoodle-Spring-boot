@@ -1,0 +1,11 @@
+curl --location 'localhost:8080' \
+--header 'Content-Type: application/json' \
+--data '{
+    "clientId": "fa5612498eef266028958957d7e62b67",
+    "clientSecret": "93b3077112bb22ffd417f4192bea52e6aadbd3bd15e9ff03261fca504ce4b2ba",
+    "script": "public class Main {    public static void main(String[] args) {        System.out.println(\"jdoodle worked!!\");\n    }}",
+    "stdin": "1",
+    "language": "java",
+    "versionIndex": "0",
+    "compileOnly": false
+}'
